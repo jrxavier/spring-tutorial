@@ -11,6 +11,8 @@ public class SpringTutorialApplicationTests {
 
     @Test
     public void contextLoads() {
+
+        System.out.printf("Vanessa e legal!!!");
     }
 
 }
