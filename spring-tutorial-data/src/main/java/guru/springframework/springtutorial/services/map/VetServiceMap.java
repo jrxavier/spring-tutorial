@@ -1,11 +1,11 @@
 package guru.springframework.springtutorial.services.map;
 
 import guru.springframework.springtutorial.model.Vet;
-import guru.springframework.springtutorial.services.CrudService;
+import guru.springframework.springtutorial.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Vet findById(Long id) {
